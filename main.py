@@ -6,11 +6,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/home')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/business')
 def business():
@@ -23,10 +23,6 @@ def goFUndMe():
 @app.route('/help')
 def help():
     return render_template('help.html')
-
-@app.route('/help2')
-def help():
-    return render_template('help2.html')
     
 if __name__ == '__main__':
     app.run()
