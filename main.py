@@ -24,6 +24,9 @@ def goFUndMe():
 def help():
     return render_template('help.html')
 
-
+@app.route('/help2')
+def help():
+    return render_template('help2.html')
+    
 if __name__ == '__main__':
     app.run()
