@@ -7,7 +7,7 @@ data={}
 with open(csvpath) as csvfile:
 	csvreader = csv.DictReader(csvfile)
 	for rows in csvreader:
-		id = rows['Link']
+		id = rows['Name']
 		data[id] = rows
 		
 

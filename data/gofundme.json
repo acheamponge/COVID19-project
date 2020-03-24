@@ -1,30 +1,30 @@
-{
-    "https://www.gofundme.com/f/44ndst-relief-fund-for-hollywood-support-staff": {
-        "\u00ef\u00bb\u00bfName of Campaign": "Relief Fund for Hollywood Support Staff ",
-        "Link": "https://www.gofundme.com/f/44ndst-relief-fund-for-hollywood-support-staff"
-    },
-    "https://www.gofundme.com/f/helphourlyworkers": {
-        "\u00ef\u00bb\u00bfName of Campaign": "Help Hourly Workers During The Coronavirus Crisis ",
-        "Link": "https://www.gofundme.com/f/helphourlyworkers"
-    },
-    "https://www.gofundme.com/f/for-artists": {
-        "\u00ef\u00bb\u00bfName of Campaign": "Seattle Artist Relief Fund Amid COVID-19",
-        "Link": "https://www.gofundme.com/f/for-artists"
-    },
-    "https://www.gofundme.com/f/covid19-relief-fund": {
-        "\u00ef\u00bb\u00bfName of Campaign": "COVID-19 Relief Fund ",
-        "Link": "https://www.gofundme.com/f/covid19-relief-fund"
-    },
-    "https://www.gofundme.com/f/a-million-masks-coronavirus-support-fund": {
-        "\u00ef\u00bb\u00bfName of Campaign": "A Million Masks: Coronavirus Support Fund ",
-        "Link": "https://www.gofundme.com/f/a-million-masks-coronavirus-support-fund"
-    },
-    "https://www.gofundme.com/f/seattle-hospitality-emergency-fund": {
-        "\u00ef\u00bb\u00bfName of Campaign": "Seattle Hospitality Emergency Fund ",
-        "Link": "https://www.gofundme.com/f/seattle-hospitality-emergency-fund"
-    },
-    "https://www.gofundme.com/f/navajo-amp-hopi-families-covid19-relief": {
-        "\u00ef\u00bb\u00bfName of Campaign": "Navajo & Hopi Families COVID-19 Relief Fund ",
-        "Link": "https://www.gofundme.com/f/navajo-amp-hopi-families-covid19-relief"
-    }
-}
+[
+  {
+    "Name of Campaign": "Relief Fund for Hollywood Support Staff",
+    "Link": "https://www.gofundme.com/f/44ndst-relief-fund-for-hollywood-support-staff"
+  },
+  {
+    "Name of Campaign": "Help Hourly Workers During The Coronavirus Crisis",
+    "Link": "https://www.gofundme.com/f/helphourlyworkers"
+  },
+  {
+    "Name of Campaign": "Seattle Artist Relief Fund Amid COVID-19",
+    "Link": "https://www.gofundme.com/f/for-artists"
+  },
+  {
+    "Name of Campaign": "COVID-19 Relief Fund",
+    "Link": "https://www.gofundme.com/f/covid19-relief-fund"
+  },
+  {
+    "Name of Campaign": "A Million Masks: Coronavirus Support Fund",
+    "Link": "https://www.gofundme.com/f/a-million-masks-coronavirus-support-fund"
+  },
+  {
+    "Name of Campaign": "Seattle Hospitality Emergency Fund",
+    "Link": "https://www.gofundme.com/f/seattle-hospitality-emergency-fund"
+  },
+  {
+    "Name of Campaign": "Navajo & Hopi Families COVID-19 Relief Fund",
+    "Link": "https://www.gofundme.com/f/navajo-amp-hopi-families-covid19-relief"
+  }
+]
