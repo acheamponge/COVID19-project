@@ -1,0 +1,22 @@
+#bot {
+    display: none;
+    position: fixed;
+    bottom: 125px;
+    right: 5px;
+}
+
+.botbtn {
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    /* background-color: gray; */
+    /* color: #EB2188; */
+}
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}
