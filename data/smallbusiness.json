@@ -1,58 +1,100 @@
 [
   {
     "Name": "SBA Economic Injury Disaster Loan Program",
-    "Link": "https://disasterloan.sba.gov/ela/Account/Login"
+    "Link": "https://disasterloan.sba.gov/ela/Account/Login",
+    "Image": "../static/img/relief1.jpg",
+    "Id": "reliefModal1",
+    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
   },
   {
     "Name": "San Francisco COVID-19 Small Business Resiliency Fund",
-    "Link": "https://oewd.org/file/17350"
+    "Link": "https://oewd.org/file/17350",
+    "Image": "../static/img/relief2.jpg",
+    "Id": "reliefModal2",
+    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
   },
   {
     "Name": "City of Los Angeles Small Business Emergency Microloan Program",
-    "Link": "https://ewddlacity.com/index.php/microloan-program"
+    "Link": "https://ewddlacity.com/index.php/microloan-program",
+    "Image": "../static/img/relief3.jpg",
+    "Id": "reliefModal3",
+    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
   },
   {
     "Name": "Denver Small Business Emergency Relief",
-    "Link": "https://www.denvergov.org/content/denvergov/en/environmental-health/news/coronavirus-info/support-services/small-business-emergency-relief-program-form.html"
+    "Link": "https://www.denvergov.org/content/denvergov/en/environmental-health/news/coronavirus-info/support-services/small-business-emergency-relief-program-form.html",
+    "Image": "../static/img/relief2.jpg",
+    "Id": "reliefModal4",
+    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
   },
   {
     "Name": "Florida Small Business Emergency Bridge Loan Program",
-    "Link": "http://floridajobs.org/rebuildflorida/businessrecovery"
+    "Link": "http://floridajobs.org/rebuildflorida/businessrecovery",
+    "Image": "../static/img/relief1.jpg",
+    "Id": "reliefModal5",
+    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
   },
   {
     "Name": "Chicago Small Business Resiliency Fund",
-    "Link": "https://www.surveymonkey.com/r/COVID19Chicago"
+    "Link": "https://www.surveymonkey.com/r/COVID19Chicago",
+    "Image": "../static/img/relief3.jpg",
+    "Id": "reliefModal6",
+    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
   },
   {
     "Name": "Michigan Small Business Relief Program",
-    "Link": "https://www.michiganbusiness.org/covid19/"
+    "Link": "https://www.michiganbusiness.org/covid19/",
+    "Image": "../static/img/relief1.jpg",
+    "Id": "reliefModal7",
+    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
   },
   {
     "Name": "New York City Employee Retention Grant Program",
-    "Link": "https://www1.nyc.gov/nycbusiness/article/nyc-employee-retention-grant-program"
+    "Link": "https://www1.nyc.gov/nycbusiness/article/nyc-employee-retention-grant-program",
+    "Image": "../static/img/relief3.jpg",
+    "Id": "reliefModal8",
+    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
   },
   {
     "Name": "New York City Small Business Continuity Fund",
-    "Link": "https://www.surveymonkey.com/r/N336ZYB"
+    "Link": "https://www.surveymonkey.com/r/N336ZYB",
+    "Image": "../static/img/relief2.jpg",
+    "Id": "reliefModal9",
+    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
   },
   {
     "Name": "Beaverton Emergency Business Assistance Program",
-    "Link": "https://www.beavertonoregon.gov/FormCenter/Business-Assistance-25/Emergency-Business-Assistance-Program-Ap-143"
+    "Link": "https://www.beavertonoregon.gov/FormCenter/Business-Assistance-25/Emergency-Business-Assistance-Program-Ap-143",
+    "Image": "../static/img/relief2.jpg",
+    "Id": "reliefModal10",
+    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
   },
   {
     "Name": "Hillsboro Small Business Emergency Relief Program",
-    "Link": "https://apps.hillsboro-oregon.gov/ebap"
+    "Link": "https://apps.hillsboro-oregon.gov/ebap",
+    "Image": "../static/img/relief1.jpg",
+    "Id": "reliefModal11",
+    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
   },
   {
     "Name": "Jade District-Old Town COVID-19 Small Business Response Fund",
-    "Link": "https://www.apano.org/jade-district-covid-19-small-business-response-fund/"
+    "Link": "https://www.apano.org/jade-district-covid-19-small-business-response-fund/",
+    "Image": "../static/img/relief3.jpg",
+    "Id": "reliefModal12",
+    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
   },
   {
     "Name": "Amazon Neighborhood Small Business Relief Fund",
-    "Link": "https://amazonsmallbusinessrelief.force.com/SelfRegisterPage"
+    "Link": "https://amazonsmallbusinessrelief.force.com/SelfRegisterPage",
+    "Image": "../static/img/relief1.jpg",
+    "Id": "reliefModal13",
+    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
   },
   {
     "Name": "Facebook Small Business Grants Program",
-    "Link": "https://www.facebook.com/business/boost/grant"
+    "Link": "https://www.facebook.com/business/boost/grant",
+    "Image": "../static/img/relief2.jpg",
+    "Id": "reliefModal14",
+    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
   }
 ]

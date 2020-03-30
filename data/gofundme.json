@@ -1,50 +1,86 @@
 [
   {
     "Name": "Relief Fund for Hollywood Support Staff",
-    "Link": "https://www.gofundme.com/f/44ndst-relief-fund-for-hollywood-support-staff"
+    "Link": "https://www.gofundme.com/f/44ndst-relief-fund-for-hollywood-support-staff",
+    "Image": "../static/img/con1.jpg",
+    "Id": "conModal1",
+    "Description": "If you could support my GoFundMe by making a donation and then sharing it with your network, I would greatly appreciate it. I know that money can be tight, so please know that even $5 helps me get closer to my goal! Let me know if you have any questions and I’ll be happy to answer them."
   },
   {
     "Name": "Help Hourly Workers During The Coronavirus Crisis",
-    "Link": "https://www.gofundme.com/f/helphourlyworkers"
+    "Link": "https://www.gofundme.com/f/helphourlyworkers",
+    "Image": "../static/img/con2.jpg",
+    "Id": "conModal2",
+    "Description": "Please support my #GoFundMe by donating and sharing my link. Thank you so much for your support!"
   },
   {
     "Name": "Seattle Artist Relief Fund Amid COVID-19",
-    "Link": "https://www.gofundme.com/f/for-artists"
+    "Link": "https://www.gofundme.com/f/for-artists",
+    "Image": "../static/img/con3.jpg",
+    "Id": "conModal3",
+    "Description": "If you could support my GoFundMe by making a donation and then sharing it with your network, I would greatly appreciate it. I know that money can be tight, so please know that even $5 helps me get closer to my goal! Let me know if you have any questions and I’ll be happy to answer them."
   },
   {
     "Name": "COVID-19 Relief Fund",
-    "Link": "https://www.gofundme.com/f/covid19-relief-fund"
+    "Link": "https://www.gofundme.com/f/covid19-relief-fund",
+    "Image": "../static/img/con2.jpg",
+    "Id": "conModal4",
+    "Description": "Please support my #GoFundMe by donating and sharing my link. Thank you so much for your support!"
   },
   {
     "Name": "A Million Masks: Coronavirus Support Fund",
-    "Link": "https://www.gofundme.com/f/a-million-masks-coronavirus-support-fund"
+    "Link": "https://www.gofundme.com/f/a-million-masks-coronavirus-support-fund",
+    "Image": "../static/img/con3.jpg",
+    "Id": "conModal5",
+    "Description": "If you could support my GoFundMe by making a donation and then sharing it with your network, I would greatly appreciate it. I know that money can be tight, so please know that even $5 helps me get closer to my goal! Let me know if you have any questions and I’ll be happy to answer them."
   },
   {
     "Name": "Seattle Hospitality Emergency Fund",
-    "Link": "https://www.gofundme.com/f/seattle-hospitality-emergency-fund"
+    "Link": "https://www.gofundme.com/f/seattle-hospitality-emergency-fund",
+    "Image": "../static/img/con1.jpg",
+    "Id": "conModal6",
+    "Description": "Please support my #GoFundMe by donating and sharing my link. Thank you so much for your support!"
   },
   {
     "Name": "Navajo & Hopi Families COVID-19 Relief Fund",
-    "Link": "https://www.gofundme.com/f/navajo-amp-hopi-families-covid19-relief"
+    "Link": "https://www.gofundme.com/f/navajo-amp-hopi-families-covid19-relief",
+    "Image": "../static/img/con3.jpg",
+    "Id": "conModal7",
+    "Description": "If you could support my GoFundMe by making a donation and then sharing it with your network, I would greatly appreciate it. I know that money can be tight, so please know that even $5 helps me get closer to my goal! Let me know if you have any questions and I’ll be happy to answer them."
   },
   {
     "Name": "Great American Restaurants Employee Relief Fund",
-    "Link": "https://www.gofundme.com/f/great-american-restaurants-employee-relief-fund"
+    "Link": "https://www.gofundme.com/f/great-american-restaurants-employee-relief-fund",
+    "Image": "../static/img/con2.jpg",
+    "Id": "conModal8",
+    "Description": "Please support my #GoFundMe by donating and sharing my link. Thank you so much for your support!"
   },
   {
     "Name": "Mask Response at Suay",
-    "Link": "https://www.gofundme.com/f/mask-response-at-suay"
+    "Link": "https://www.gofundme.com/f/mask-response-at-suay",
+    "Image": "../static/img/con3.jpg",
+    "Id": "conModal9",
+    "Description": "If you could support my GoFundMe by making a donation and then sharing it with your network, I would greatly appreciate it. I know that money can be tight, so please know that even $5 helps me get closer to my goal! Let me know if you have any questions and I’ll be happy to answer them."
   },
   {
     "Name": "Feeding UW Hospital Staff",
-    "Link": "https://www.gofundme.com/f/feeding-uw-hospital-staff"
+    "Link": "https://www.gofundme.com/f/feeding-uw-hospital-staff",
+    "Image": "../static/img/con1.jpg",
+    "Id": "conModal10",
+    "Description": "Please support my #GoFundMe by donating and sharing my link. Thank you so much for your support!"
   },
   {
     "Name": "Save Lives w 3D Printed Face Shields",
-    "Link": "https://www.gofundme.com/f/cls-3d-faceshields"
+    "Link": "https://www.gofundme.com/f/cls-3d-faceshields",
+    "Image": "../static/img/con2.jpg",
+    "Id": "conModal11",
+    "Description": "If you could support my GoFundMe by making a donation and then sharing it with your network, I would greatly appreciate it. I know that money can be tight, so please know that even $5 helps me get closer to my goal! Let me know if you have any questions and I’ll be happy to answer them."
   },
   {
     "Name": "Richmond Restaurant Workers Support Fund",
-    "Link": "https://www.gofundme.com/discover/emergency-fundraiser"
+    "Link": "https://www.gofundme.com/discover/emergency-fundraiser",
+    "Image": "../static/img/con3.jpg",
+    "Id": "conModal12",
+    "Description": "Please support my #GoFundMe by donating and sharing my link. Thank you so much for your support!"
   }
 ]

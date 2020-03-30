@@ -71,41 +71,19 @@
       <!-- Relief Grid Items -->
       <div class="row">
 
-        <!-- Relief Item 1 -->
+		<!-- Relief Item -->
+		{% for item in businesses %}
         <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target='#{{ item.Id }}'>
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
 			</div>
-			<img class="img-fluid" src="../static/img/relief1.jpg" alt="">
+			<img class="img-fluid" src='{{ item.Image }}' alt="">
           </div>
-        </div>
-
-        <!-- Relief Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="../static/img/relief2.jpg" alt="">
-          </div>
-        </div>
-
-        <!-- Relief Item 3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="../static/img/relief3.jpg" alt="">
-          </div>
-        </div>
+		</div>
+		{% endfor %}
 
       </div>
       <!-- /.row -->
@@ -114,9 +92,8 @@
   </section>
 
  <!-- Relief Modals -->
-
-  <!-- Relief Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+  {% for item in businesses %}
+  <div class="portfolio-modal modal fade" id='{{ item.Id }}' tabindex="-1" role="dialog"  aria-hidden="true">
 		<div class="modal-dialog modal-xl" role="document">
 		  <div class="modal-content">
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -130,7 +107,7 @@
 				  <div class="col-lg-8">
 					<!-- Relief - Title -->
 					<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">
-						SBA Economic Injury Disaster Loan Program
+							{{ item.Name }}
 					</h2>
 					<!-- Icon Divider -->
 					<div class="divider-custom">
@@ -141,17 +118,15 @@
 					  <div class="divider-custom-line"></div>
 					</div>
 					<!-- Relief Modal - Image -->
-					<img class="img-fluid rounded mb-5" src="../static/img/relief1.jpg" alt="">
+					<img class="img-fluid rounded mb-5" src='{{ item.Image }}' alt="">
 					<!-- Relief Modal - Text -->
-					<p class="mb-5">This funding is available for anyone who has been hit by the 
-						pandemic and makes less than $25, 000.00 in annual revenue. There are other 
-						systems in place that can support the business owner in case they are not 
-						selected specifically for this fund.
+					<p class="mb-5">
+						{{ item.Description }}
 					</p>
 					
-					<a href="https://www.google.com/" target="_blank">
+					<a href='{{ item.Link }}' target="_blank">
 					<button class="btn btn-primary">
-					  Apply for Funds
+					  Apply for Buisness Funds
 					</button></a>
 				  </div>
 				</div>
@@ -160,6 +135,7 @@
 		  </div>
 		</div>
 	  </div>
+	  {% endfor %}
 
   <!-- Footer Section -->
   <footer class="copyright py-4 text-center text-white footer">
@@ -181,10 +157,6 @@
 
 	<!-- Plugin JavaScript -->
 	<script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-	<!-- Contact Form JavaScript -->
-	<script src="../static/js/jqBootstrapValidation.js"></script>
-	<script src="../static/js/contact_me.js"></script>
 
 	<!-- Custom scripts for this template -->
 	<script src="../static/js/freelancer.min.js"></script>
