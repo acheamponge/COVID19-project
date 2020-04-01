@@ -19,7 +19,7 @@
   <link href="../static/css/main.css" rel="stylesheet">
 
   <!-- Theme CSS -->
-  <link href="../static/css/freelancer.min.css" rel="stylesheet">
+  <link href="../static/css/freelancer.css" rel="stylesheet">
 
 </head>
 
@@ -85,6 +85,50 @@
     </div>
   </section>
 
+  <!-- Resource Section -->
+<section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <br/>
+          <!-- Resource Section Heading -->
+          <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Useful Links</h2>
+    
+          <!-- Icon Divider -->
+          <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+          </div>
+    
+          <!-- Resource Grid Items -->
+          <div class="row">
+    
+            <!-- Resource Item -->
+            {% for item in resources %}
+            <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item mx-auto">
+                <div class="d-flex align-items-center justify-content-center h-100 w-100">
+                  <div class="portfolio-item-caption-content text-center text-white">
+                    <!-- <i class="fa fa-external-link fa-3x"></i> -->
+                  </div>
+                </div>
+                <a href='{{ item.Link }}' target="_blank" style="text-decoration:none">
+                <img class="img-fluid" src='{{ item.Image }}' alt="">
+                <p class="masthead-subheading font-weight-heavy mb-0 text-center">
+                {{ item.Name }}
+                </p>
+                </a>
+              </div>
+            </div>
+            {% endfor %}
+    
+          </div>
+          <!-- /.row -->
+    
+        </div>
+      </section>
+
   <!-- Contact Section -->
   <section class="page-section" id="contact">
     <div class="container">
@@ -147,7 +191,7 @@
   </section>
 
    <!-- Footer Section -->
-   <footer class="copyright py-4 text-center text-white footer">
+   <footer class="copyright py-4 text-center footer">
         <div class="container">
           <small>Copyright &copy; ENGINEERS 2020</small>
         </div>
