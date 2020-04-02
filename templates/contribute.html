@@ -15,11 +15,12 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Custom CSS -->
   <link href="../static/css/main.css" rel="stylesheet">
 
   <!-- Theme CSS -->
-  <link href="../static/css/freelancer.min.css" rel="stylesheet">
+  <link href="../static/css/freelancer.css" rel="stylesheet">
 
 
 
@@ -80,7 +81,7 @@
 			  <div class="portfolio-item mx-auto" data-toggle="modal" data-target='#{{ item.Id }}'>
 				<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 				  <div class="portfolio-item-caption-content text-center text-white">
-					<i class="fas fa-plus fa-3x"></i>
+					<i class="fa fa-external-link fa-3x"></i>
 				  </div>
 				</div>
 				<img class="img-fluid" src='{{ item.Image }}' alt="">
@@ -141,7 +142,7 @@
 		  {% endfor %}
 
   <!-- Footer Section -->
-  <footer class="copyright py-4 text-center text-white footer">
+  <footer class="copyright py-4 text-center footer">
 		<div class="container">
 		  <small>Copyright &copy; ENGINEERS 2020</small>
 		</div>
