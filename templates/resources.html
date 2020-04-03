@@ -19,7 +19,7 @@
   <link href="../static/css/main.css" rel="stylesheet">
 
   <!-- Theme CSS -->
-  <link href="../static/css/freelancer.min.css" rel="stylesheet">
+  <link href="../static/css/freelancer.css" rel="stylesheet">
 
 </head>
 
@@ -73,23 +73,61 @@
         <div class="col-lg-4 ml-auto">
           <p class="lead">
               The inspiration for this project came out of a discussion concerning the fate of small-scale
-            businesses post COVID-19. How were small mom and pop stores going to be able to bounce back 
-            from such a hit to their daily livestyles and business routines. We realized there were several 
-            funding opportunities that were springing up specifically for businesses of different criteria 
-            that had been hit by the effects of the pandemic. 
+            businesses post the COVID-19 pandemic. The question in focus was in connection to how small mom and pop stores were going to bounce back from such a hit to their daily livestyles and business routines. We realized there were several funding opportunities that were springing up specifically for businesses of different criteria that had been hit by the aftermath of the pandemic. The follow-up question was then as to whether some of these business owners would ever know of the opportunities that may be available for them to be able to gain some support to recover from the hit of the effects of the pandemic. Let's face the fact - how many small scale business owners out there might be well-aware of all of these available funds that they could potentially be able to get to help them rebuild?
             </p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">But how many small scale business owners might know about all of these available funds
-              that they could potentially be able to get to help them rebuild? That is when our simple app comes
-              in - a one-stop hub to connect business owners to the necessary funds for business rebuild!
-              Kindly pass this on to the next business owner you kno who will be grateful.
+          <p class="lead">Fact is they might be able to hear about the big ones where their probabilities of getting awarded are slim to none. This might be very discouraging and so they could resort to not applying at all. However, we do believe there is an opening for everyone, at least, if they know where to look. That is when our simple app comes in - a one-stop hub to connect business owners to the necessary funds for business rebuild! This simple web app is to assist small business owners with searching for funding oportunities that they stand a better chance of getting awarded some money to save their businesses and keep food on their families' tables. For non business owners, we have also gathered a couple of vital fundraising campaigns that you can donate to to assist businesses in their recovery from the heavy blow of this pandemic. Do not forget that we have extra resources as well that are worth checking out. Kindly pass this on to the next business owner or friend you know who might appreciate the gesture.
             </p>
         </div>
       </div>
 
     </div>
   </section>
+
+  <!-- Resource Section -->
+<section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <br/>
+          <!-- Resource Section Heading -->
+          <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Useful Links</h2>
+    
+          <!-- Icon Divider -->
+          <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+          </div>
+    
+          <!-- Resource Grid Items -->
+          <div class="row">
+    
+            <!-- Resource Item -->
+            {% for item in resources %}
+            <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item mx-auto">
+                <div class="d-flex align-items-center justify-content-center h-100 w-100">
+                  <div class="portfolio-item-caption-content text-center text-white">
+                    <!-- <i class="fa fa-external-link fa-3x"></i> -->
+                  </div>
+                </div>
+                <a href='{{ item.Link }}' target="_blank" style="text-decoration:none">
+                <img class="img-fluid" src='{{ item.Image }}' alt="">
+                <p class="masthead-subheading font-weight-heavy mb-0 text-center">
+                {{ item.Name }}
+                </p>
+                </a>
+              </div>
+            </div>
+            {% endfor %}
+    
+          </div>
+          <!-- /.row -->
+    
+        </div>
+      </section>
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -153,7 +191,7 @@
   </section>
 
    <!-- Footer Section -->
-   <footer class="copyright py-4 text-center text-white footer">
+   <footer class="copyright py-4 text-center footer">
         <div class="container">
           <small>Copyright &copy; ENGINEERS 2020</small>
         </div>

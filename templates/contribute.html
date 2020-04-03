@@ -15,11 +15,12 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Custom CSS -->
   <link href="../static/css/main.css" rel="stylesheet">
 
   <!-- Theme CSS -->
-  <link href="../static/css/freelancer.min.css" rel="stylesheet">
+  <link href="../static/css/freelancer.css" rel="stylesheet">
 
 
 
@@ -55,11 +56,11 @@
     </div>
   </nav>
 
-<!-- Portfolio Section -->
+<!-- Relief Section -->
 <section class="page-section portfolio" id="portfolio">
 		<div class="container">
 			<br/>
-		  <!-- Portfolio Section Heading -->
+		  <!-- Relief Section Heading -->
 		  <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">GoFundMe Campaigns</h2>
 	
 		  <!-- Icon Divider -->
@@ -71,53 +72,77 @@
 			<div class="divider-custom-line"></div>
 		  </div>
 	
-		  <!-- Portfolio Grid Items -->
+		  <!-- GoFundMe Grid Items -->
 		  <div class="row">
 	
-			<!-- Portfolio Item 4 -->
+			<!-- GoFundMe Item -->
+			{% for item in contributions %}
 			<div class="col-md-6 col-lg-4">
-			  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+			  <div class="portfolio-item mx-auto" data-toggle="modal" data-target='#{{ item.Id }}'>
 				<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 				  <div class="portfolio-item-caption-content text-center text-white">
-					<i class="fas fa-plus fa-3x"></i>
+					<i class="fa fa-external-link fa-3x"></i>
 				  </div>
 				</div>
-				<img class="img-fluid" src="../static/img/con1.jpg" alt="">
+				<img class="img-fluid" src='{{ item.Image }}' alt="">
 			  </div>
 			</div>
-	
-			<!-- Portfolio Item 5 -->
-			<div class="col-md-6 col-lg-4">
-			  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-				<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-				  <div class="portfolio-item-caption-content text-center text-white">
-					<i class="fas fa-plus fa-3x"></i>
-				  </div>
-				</div>
-				<img class="img-fluid" src="../static/img/con2.jpg" alt="">
-			  </div>
-			</div>
-	
-			<!-- Portfolio Item 6 -->
-			<div class="col-md-6 col-lg-4">
-			  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-				<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-				  <div class="portfolio-item-caption-content text-center text-white">
-					<i class="fas fa-plus fa-3x"></i>
-				  </div>
-				</div>
-				<img class="img-fluid" src="../static/img/con3.PNG" alt="">
-			  </div>
-			</div>
+			{% endfor %}
 	
 		  </div>
 		  <!-- /.row -->
 	
 		</div>
-	</section>
+	  </section>
+	
+	 <!-- GoFundMe Modals -->
+	  {% for item in contributions %}
+	  <div class="portfolio-modal modal fade" id='{{ item.Id }}' tabindex="-1" role="dialog"  aria-hidden="true">
+			<div class="modal-dialog modal-xl" role="document">
+			  <div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">
+					<i class="fas fa-times"></i>
+				  </span>
+				</button>
+				<div class="modal-body text-center">
+				  <div class="container">
+					<div class="row justify-content-center">
+					  <div class="col-lg-8">
+						<!-- GoFundMe - Title -->
+						<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">
+								{{ item.Name }}
+						</h2>
+						<!-- Icon Divider -->
+						<div class="divider-custom">
+						  <div class="divider-custom-line"></div>
+						  <div class="divider-custom-icon">
+							<i class="fas fa-star"></i>
+						  </div>
+						  <div class="divider-custom-line"></div>
+						</div>
+						<!-- GoFundMe Modal - Image -->
+						<img class="img-fluid rounded mb-5" src='{{ item.Image }}' alt="">
+						<!-- GoFundMe Modal - Text -->
+						<p class="mb-5">
+							{{ item.Description }}
+						</p>
+						
+						<a href='{{ item.Link }}' target="_blank">
+						<button class="btn btn-primary">
+						  Give to Campaign
+						</button></a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  {% endfor %}
 
   <!-- Footer Section -->
-  <footer class="copyright py-4 text-center text-white footer">
+  <footer class="copyright py-4 text-center footer">
 		<div class="container">
 		  <small>Copyright &copy; ENGINEERS 2020</small>
 		</div>
@@ -136,10 +161,6 @@
 
 	<!-- Plugin JavaScript -->
 	<script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-	<!-- Contact Form JavaScript -->
-	<script src="../static/js/jqBootstrapValidation.js"></script>
-	<script src="../static/js/contact_me.js"></script>
 
 	<!-- Custom scripts for this template -->
 	<script src="../static/js/freelancer.min.js"></script>
