@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #8bd8bd;
   text-decoration: none;
   background-color: transparent;
 }
@@ -400,6 +400,8 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .display-1 {
@@ -9756,7 +9758,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.75;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
