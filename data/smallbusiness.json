@@ -4,70 +4,56 @@
     "Link": "https://disasterloan.sba.gov/ela/Account/Login",
     "Image": "../static/img/relief1.jpg",
     "Id": "reliefModal1",
-    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
+    "Description": "The U.S. Small Business Administration is offering designated states and territories low-interest federal disaster loans for working capital to small businesses suffering substantial economic injury as a result of the Coronavirus (COVID-19)."
   },
   {
     "Name": "San Francisco COVID-19 Small Business Resiliency Fund",
     "Link": "https://oewd.org/file/17350",
     "Image": "../static/img/relief2.jpg",
     "Id": "reliefModal2",
-    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
+    "Description": "Small Business Funds made available by the San Francisco Office of Economic and Workforce Development. Apply now!"
   },
   {
     "Name": "City of Los Angeles Small Business Emergency Microloan Program",
     "Link": "https://ewddlacity.com/index.php/microloan-program",
     "Image": "../static/img/relief3.jpg",
     "Id": "reliefModal3",
-    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
+    "Description": "In light of the sweeping impact the COVID-19 pandemic is having on our small business community, the City of Los Angeles has responded swiftly and decisively to support our local, community businesses. The newly established Small Business Emergency Microloan Program now provides financing needed to strengthen small business enterprises in this time of acute need that have been affected by the COVID-19 outbreak."
   },
   {
     "Name": "Denver Small Business Emergency Relief",
     "Link": "https://www.denvergov.org/content/denvergov/en/environmental-health/news/coronavirus-info/support-services/small-business-emergency-relief-program-form.html",
     "Image": "../static/img/relief2.jpg",
     "Id": "reliefModal4",
-    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
+    "Description": "In response to COVID-19, Denver Economic Development & Opportunity is working on connecting our Denver business community to the most appropriate resources in our region. The first step is to let us know how your business is being impacted by filling out this questionnaire. Denver Economic Development & Opportunity (DEDO) staff will evaluate your information and help you identify the most appropriate support for you and your business."
   },
   {
     "Name": "Florida Small Business Emergency Bridge Loan Program",
     "Link": "http://floridajobs.org/rebuildflorida/businessrecovery",
     "Image": "../static/img/relief1.jpg",
     "Id": "reliefModal5",
-    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
-  },
-  {
-    "Name": "Chicago Small Business Resiliency Fund",
-    "Link": "https://www.surveymonkey.com/r/COVID19Chicago",
-    "Image": "../static/img/relief3.jpg",
-    "Id": "reliefModal6",
-    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
+    "Description": "The Florida Small Business Emergency Bridge Loan Program is currently available to small business owners located in all Florida counties statewide that experienced economic damage as a result of COVID-19. These short-term, interest-free working capital loans are intended to “bridge the gap” between the time a major catastrophe hits and when a business has secured longer term recovery resources, such as sufficient profits from a revived business, receipt of payments on insurance claims or federal disaster assistance."
   },
   {
     "Name": "Michigan Small Business Relief Program",
     "Link": "https://www.michiganbusiness.org/covid19/",
     "Image": "../static/img/relief1.jpg",
     "Id": "reliefModal7",
-    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
+    "Description": "The Michigan Small Business Relief Program grants are administered by 15 local and nonprofit economic development organizations (EDOs). To apply, find the EDO that represents the county in which your business is located. Click on the appropriate website for more information and to submit your application."
   },
   {
     "Name": "New York City Employee Retention Grant Program",
     "Link": "https://www1.nyc.gov/nycbusiness/article/nyc-employee-retention-grant-program",
     "Image": "../static/img/relief3.jpg",
     "Id": "reliefModal8",
-    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
+    "Description": "To help small businesses deal with the impact of COVID-19, the City has launched the Employee Retention Grant Program to help retain employees as businesses face decreased revenue. This program is available to New York City businesses with one to four employees that can demonstrate at least a 25% decrease in revenue as a result of COVID-19."
   },
   {
     "Name": "New York City Small Business Continuity Fund",
     "Link": "https://www.surveymonkey.com/r/N336ZYB",
     "Image": "../static/img/relief2.jpg",
     "Id": "reliefModal9",
-    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
-  },
-  {
-    "Name": "Beaverton Emergency Business Assistance Program",
-    "Link": "https://www.beavertonoregon.gov/FormCenter/Business-Assistance-25/Emergency-Business-Assistance-Program-Ap-143",
-    "Image": "../static/img/relief2.jpg",
-    "Id": "reliefModal10",
-    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
+    "Description": "Let us know about the impact of COVID-19 on your business. Please continue to monitor your email that you submit – we will send information regarding the new loan and grant program for impacted small businesses, including application links, in the coming days."
   },
   {
     "Name": "Hillsboro Small Business Emergency Relief Program",
@@ -77,24 +63,17 @@
     "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
   },
   {
-    "Name": "Jade District-Old Town COVID-19 Small Business Response Fund",
-    "Link": "https://www.apano.org/jade-district-covid-19-small-business-response-fund/",
-    "Image": "../static/img/relief3.jpg",
-    "Id": "reliefModal12",
-    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
-  },
-  {
     "Name": "Amazon Neighborhood Small Business Relief Fund",
     "Link": "https://amazonsmallbusinessrelief.force.com/SelfRegisterPage",
     "Image": "../static/img/relief1.jpg",
     "Id": "reliefModal13",
-    "Description": "This funding is available for anyone who has been hit by the pandemic and makes less than $25, 000.00 in annual revenue. There are other systems in place that can support the business owner in case they are not selected specifically for this fund."
+    "Description": "Hundreds of businesses across the region are being negatively affected by the economic effects of COVID-19 as many businesses, including Amazon, have employees working from home. These businesses support thousands of local jobs. They’re our friends and neighbors, and we believe it’s important we help them confront the economic challenges they face due to reduced foot traffic."
   },
   {
     "Name": "Facebook Small Business Grants Program",
     "Link": "https://www.facebook.com/business/boost/grant",
     "Image": "../static/img/relief2.jpg",
     "Id": "reliefModal14",
-    "Description": "The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. The new coronavirus has taken thousands of lives and spread to nearly every country in the world. Your donation to this fund will support immediate and long-term relief and recovery in vulnerable communities during one of the most challenging times we have collectively faced."
+    "Description": "We know that your business may be experiencing disruptions resulting from the global outbreak of COVID-19. We’ve heard that a little financial support can go a long way, so we are offering $100M in cash grants and ad credits to help during this challenging time."
   }
 ]

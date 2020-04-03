@@ -4,7 +4,7 @@ import json
 from flask import render_template
 app = Flask(__name__)
 
-with open("data/smallbusiness.json") as a:
+with open("data/smallbusiness.json", encoding="utf8") as a:
     businesses = json.load(a)
 
 with open("data/gofundme.json") as b:
