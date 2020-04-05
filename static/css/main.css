@@ -10,12 +10,13 @@
     bottom: 75px;
     right: 5px;
     z-index: 10;
-    color: white !important;
+    color: #8bd8bd !important;
+    background-color: #243665 !important;
 }
 
 .botbtn:hover {
-    background-color: #fff;
-    color: black !important;
+    background-color: #8bd8bd !important;
+    color: #243665 !important;
 }
 
 footer {
