@@ -33,6 +33,10 @@ def goFUndMe():
 @app.route('/resources')
 def help():
     return render_template('resources.html', resources = resources)
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
     
 if __name__ == '__main__':
-    app.run()
+    app.run(host = '127.0.0.1', port = 8080)
