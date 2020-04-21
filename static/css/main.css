@@ -32,3 +32,10 @@ footer {
     padding-bottom: 0px;
     padding-top: 25px;
 }
+
+.cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
